@@ -2,7 +2,7 @@ import os
 import numpy as np
 from Bio import SeqIO
 import matplotlib.pyplot as plt
-
+ 
 def generuj_cgr(sekwencja):
     n = len(sekwencja)
     punkty = np.zeros((2, n+1))
@@ -65,4 +65,5 @@ for plik in os.listdir(folder_wejscie):
             plt.close()
 
 print("✅ Gotowe! Wszystkie obrazy CGR zapisano w folderze")
+
 print(folder_wyjscie)
