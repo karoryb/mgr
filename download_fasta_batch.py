@@ -1,15 +1,20 @@
+import os
 import requests
 import time
 from tqdm import tqdm
 
-# Konfiguracja
-EMAIL = "288847@student.pwr.edu.pl" 
+# === KONFIGURACJA ===
+EMAIL = "288847@student.pwr.edu.pl"
 API_KEY = None
 MAX_TRIES = 5
 WAIT_BETWEEN = 0.34
 INPUT_FILE = "accessions.txt"
-OUTPUT_MODE = "separate"
+OUTPUT_MODE = "separate"  # "separate" lub "combined"
 COMBINED_FILE = "all_sequences.fasta"
+OUTPUT_DIR = "fasta"  # <-- folder, gdzie zapiszemy pliki
+
+# Upewnij się, że folder istnieje
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def fetch_fasta(acc):
@@ -52,7 +57,8 @@ def main():
     print(f"Znaleziono {len(accessions)} identyfikatorów do pobrania.\n")
 
     if OUTPUT_MODE == "combined":
-        combined = open(COMBINED_FILE, "w", encoding="utf-8")
+        combined_path = os.path.join(OUTPUT_DIR, COMBINED_FILE)
+        combined = open(combined_path, "w", encoding="utf-8")
 
     for acc in tqdm(accessions, desc="Pobieranie FASTA"):
         seq = fetch_fasta(acc)
@@ -60,15 +66,16 @@ def main():
             if OUTPUT_MODE == "combined":
                 combined.write(seq + "\n")
             else:
-                with open(f"{acc}.fasta", "w", encoding="utf-8") as f:
+                output_path = os.path.join(OUTPUT_DIR, f"{acc}.fasta")
+                with open(output_path, "w", encoding="utf-8") as f:
                     f.write(seq)
         time.sleep(WAIT_BETWEEN)  # kontrola szybkości (limity NCBI)
 
     if OUTPUT_MODE == "combined":
         combined.close()
-        print(f"\n✅ Wszystkie sekwencje zapisano do: {COMBINED_FILE}")
+        print(f"\n✅ Wszystkie sekwencje zapisano do: {combined_path}")
     else:
-        print("\n✅ Sekwencje zapisano w osobnych plikach *.fasta")
+        print(f"\n✅ Sekwencje zapisano w folderze: {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":
