@@ -2,7 +2,7 @@ import os
 import numpy as np
 from Bio import SeqIO
 import matplotlib.pyplot as plt
- 
+
 def generuj_cgr(sekwencja):
     n = len(sekwencja)
     punkty = np.zeros((2, n+1))
@@ -25,18 +25,6 @@ def generuj_cgr(sekwencja):
 
     return punkty
 
-# # Wczytanie sekwencji z pliku FASTA
-# plik_fasta = r"C:\Users\Karola\OneDrive - MULTIKKA Sp. z o.o\Dokumenty\STUDIA\INS\magisterka\NC_001700.1.fasta"
-
-# for rekord in SeqIO.parse(plik_fasta, "fasta"):
-#     sekwencja = str(rekord.seq)
-#     punkty = generuj_cgr(sekwencja)
-    
-#     # opcjonalnie: rysowanie CGR
-#     plt.figure(figsize=(5,5))
-#     plt.plot(punkty[0, :], punkty[1, :], '.', markersize=1)
-#     plt.title(rekord.id)
-#     plt.show()
 
 # === KONFIGURACJA ===
 folder_wejscie = r"C:\Users\Karola\OneDrive - MULTIKKA Sp. z o.o\Dokumenty\STUDIA\INS\magisterka\fasta"
@@ -65,5 +53,4 @@ for plik in os.listdir(folder_wejscie):
             plt.close()
 
 print("✅ Gotowe! Wszystkie obrazy CGR zapisano w folderze")
-
 print(folder_wyjscie)
