@@ -1,0 +1,15 @@
+
+
+CEL PRACY:
+Analiza podobieństwa międzygatunkowego polega na określaniu pozycji organizmów na drzewie filogenetycznym w oparciu o porównanie ich sekwencji DNA. W analizach filogenetycznych szczególnie przydatne jest mitochondrialne DNA ze względu na jego wysoką konserwatywność międzygatunkową oraz stosunkowo niewielką długość sekwencji.
+Klasyczne narzędzia klasyfikujące organizmy na podstawie sekwencji DNA zazwyczaj dostarczają jedynie prawdopodobieństwa przynależności organizmu do danej grupy taksonomicznej, bez wyjaśnienia przyczyn tej decyzji.
+Celem niniejszej pracy jest rozszerzenie tych możliwości poprzez implementację metod interpretowalności modeli uczenia maszynowego. W ramach projektu planowane jest stworzenie prototypowej aplikacji do klasyfikacji organizmów oraz adaptacja wybranych technik interpretacyjnych w celu wyjaśnienia decyzji klasyfikatora.
+
+ZAKRES PRACY:
+Dane wejściowe będą stanowić sekwencje mitochondrialnego DNA (mtDNA) pozyskane z bazy danych NCBI. Prototyp aplikacji zostanie opracowany w języku Python. W projekcie przewidziano zastosowanie algorytmu Chaos Game Representation (CGR) do wizualizacji sekwencji w postaci dwuwymiarowych reprezentacji. Choć metoda ta jest rzadko stosowana w klasycznej analizie filogenetycznej, wykazuje potencjał w syntetycznym przedstawianiu struktury sekwencji w formie graficznej, co może wspomagać dalszą interpretację danych.
+
+Równolegle zostaną zaadaptowane wybrane metody interpretowalnego uczenia maszynowego, w szczególności SHAP (SHapley Additive exPlanations), w celu określenia wpływu poszczególnych fragmentów sekwencji DNA na wynik klasyfikacji. Ponadto oceniona zostanie przydatność tych wyjaśnień w kontekście biologicznym.
+
+Aspekt badawczy pracy koncentruje się na ewaluacji skuteczności zastosowanych technik interpretacyjnych w analizie filogenetycznej i ich dostosowaniu do specyfiki danych sekwencyjnych.
+
+Aspekt systemowy obejmuje projekt i implementację rozwiązania informatycznego, które nie tylko wspiera analizę filogenetyczną, ale również uwzględnia potrzeby użytkownika końcowego – biologa lub bioinformatyka – poprzez dostarczenie przejrzystych, zrozumiałych i wiarygodnych uzasadnień decyzji algorytmu. Kluczowym celem jest zwiększenie zaufania użytkownika do działania systemu oraz ułatwienie interpretacji jego wyników dzięki integracji wizualizacji i wyników działania modeli uczenia maszynowego w ramach jednego potoku przetwarzania danych.
