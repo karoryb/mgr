@@ -1,0 +1,99 @@
+Accession,Scientific_name,Taxonomy,Group,Label_ID
+NC_005089.1,Mus musculus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Murinae; Mus; Mus,Gryzonie,5
+NC_012374.1,Rattus rattus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Murinae; Rattus,Gryzonie,5
+NC_000884.1,Cavia porcellus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Hystricomorpha; Caviidae; Cavia,Gryzonie,5
+NC_037509.1,Psammomys obesus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Gerbillinae; Psammomys,Gryzonie,5
+NC_034314.1,Meriones tamariscinus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Gerbillinae; Meriones,Gryzonie,5
+NC_027684.1,Meriones meridianus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Gerbillinae; Meriones,Gryzonie,5
+NC_027683.1,Meriones libycus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae; Gerbillinae; Meriones,Gryzonie,5
+NC_048490.1,Marmota vancouverensis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Sciuromorpha; Sciuridae; Xerinae; Marmotini; Marmota,Gryzonie,5
+NC_018367.1,Marmota himalayana,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Sciuromorpha; Sciuridae; Xerinae; Marmotini; Marmota,Gryzonie,5
+NC_025902.1,Lepus hainanus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Lepus,inne,8
+NC_025316.1,Lepus sinensis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Lepus,inne,8
+NC_023780.1,Ratufa bicolor,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Sciuromorpha; Sciuridae; Ratufinae; Ratufa,Gryzonie,5
+NC_053822.1,Cricetulus barabensis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Cricetidae; Cricetinae; Cricetulus,Gryzonie,5
+NC_031802.1,Nothocricetulus migratorius,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Cricetidae; Cricetinae; Nothocricetulus,Gryzonie,5
+NC_001913.1,Oryctolagus cuniculus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Oryctolagus,inne,8
+NC_011120.1,Gorilla gorilla gorilla,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Gorilla,Naczelne,4
+NC_011137.1,Homo sapiens neanderthalensis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo,Naczelne,4
+NC_012920.1,Homo sapiens,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo,Naczelne,4
+NC_002082.1,Hylobates lar,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hylobatidae; Hylobates,Naczelne,4
+NC_014042.1,Hylobates agilis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hylobatidae; Hylobates,Naczelne,4
+NC_001643.1,Pan troglodytes,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Pan,Naczelne,4
+Y18001.1,Papio hamadryas,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Cercopithecidae; Cercopithecinae; Papio,Naczelne,4
+NC_020009.2,Papio papio,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Cercopithecidae; Cercopithecinae; Papio,Naczelne,4
+NC_002083.1,Pongo abelii,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Pongo,Naczelne,4
+NC_014047.1,Symphalangus syndactylus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hylobatidae; Symphalangus,Naczelne,4
+MT711860.1,Hoolock hoolock,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hylobatidae; Hoolock,Naczelne,4
+NC_028306.1,Caracal caracal,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Felinae; Caracal,Kotowate,0
+NC_001700.1,Felis catus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Felinae; Felis,Kotowate,0
+OR095102.1,Felis margarita,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Felinae; Felis,Kotowate,0
+OR095103.1,Felis silvestris,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Felinae; Felis,Kotowate,0
+NC_027083.1,Lynx lynx,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Felinae; Lynx,Kotowate,0
+NC_022842.1,Panthera onca,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Pantherinae; Panthera,Kotowate,0
+NC_010642.1,Panthera tigris,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Pantherinae; Panthera,Kotowate,0
+OR777682.1,Panthera pardus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Pantherinae; Panthera,Kotowate,0
+MW257216.1,Panthera leo,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Pantherinae; Panthera,Kotowate,0
+NC_016470.1,Puma concolor,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae; Felinae; Puma,Kotowate,0
+NC_026529.1,Vulpes lagopus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Vulpes,Psowate,1
+NC_008434.1,Vulpes vulpes,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Vulpes,Psowate,1
+AY729880.1,Canis lupus familiaris,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis,Psowate,1
+NC_067757.1,Canis aureus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis,Psowate,1
+NC_009686.1,Canis lupus lupus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis,Psowate,1
+NC_013700.1,Nyctereutes procyonoides,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Nyctereutes,Psowate,1
+NC_028427.1,Lycaon pictus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Lycaon,Psowate,1
+NC_036369.1,Otocyon megalotis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Otocyon,Psowate,1
+NC_008093.1,Canis latrans,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis,Psowate,1
+NC_013445.1,Cuon alpinus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Cuon,Psowate,1
+NC_019591.1,Orcaella heinsohni,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Orcaella,Walenie,6
+NC_019590.1,Orcaella brevirostris,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Orcaella,Walenie,6
+NC_019589.1,Peponocephala electra,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Peponocephala,Walenie,6
+NC_019588.1,Feresa attenuata,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Feresa,Walenie,6
+NC_064558.1,Orcinus orca,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Orcinus,Walenie,6
+NC_012059.1,Tursiops truncatus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Tursiops,Walenie,6
+NC_012058.1,Tursiops aduncus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Tursiops,Walenie,6
+NC_019577.1,Pseudorca crassidens,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Pseudorca,Walenie,6
+NC_019578.2,Globicephala macrorhynchus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Globicephala,Walenie,6
+NC_083222.1,Globicephala melas,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Globicephala,Walenie,6
+NC_083094.1,Lagenorhynchus albirostris,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Lagenorhynchus,Walenie,6
+NC_012062.1,Grampus griseus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Grampus,Walenie,6
+NC_012051.1,Stenella attenuata,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Stenella,Walenie,6
+NC_012053.1,Stenella coeruleoalba,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Stenella,Walenie,6
+NC_012061.1,Delphinus capensis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Delphinus,Walenie,6
+NC_012057.1,Sousa chinensis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha; Cetacea; Odontoceti; Delphinidae; Sousa,Walenie,6
+NC_083148.1,Baeodon alleni,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Baeodon,Mroczkowate,3
+OR490498.1,Rhogeessa genowaysi,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Rhogeessa,Mroczkowate,3
+NC_082320.1,Rhogeessa aenea,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Rhogeessa,Mroczkowate,3
+PQ064114.1,Bauerus dubiaquercus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Bauerus,Mroczkowate,3
+NC_057092.1,Eudiscopus denticulus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Eudiscopus,Mroczkowate,3
+NC_056111.1,Myotis pilosus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Myotis,Mroczkowate,3
+NC_041638.1,Myotis frater,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Myotis,Mroczkowate,3
+NC_041160.1,Nyctalus plancyi,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Nyctalus,Mroczkowate,3
+NC_027237.1,Nyctalus noctula,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Nyctalus,Mroczkowate,3
+NC_034227.1,Myotis bechsteinii,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Myotis,Mroczkowate,3
+NC_029849.1,Myotis lucifugus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Myotis,Mroczkowate,3
+NC_029422.1,Myotis muricola,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Myotis,Mroczkowate,3
+NC_029346.1,Myotis myotis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Myotis,Mroczkowate,3
+NC_029191.1,Pipistrellus coromandra,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Pipistrellus,Mroczkowate,3
+MZ457524.1,Tylonycteris fulvida,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Chiroptera; Yangochiroptera; Vespertilionidae; Tylonycteris,Mroczkowate,3
+NC_007596.2,Mammuthus primigenius,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Afrotheria; Proboscidea; Elephantidae; Mammuthus,Słoniowate,2
+NC_015529.1,Mammuthus columbi,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Afrotheria; Proboscidea; Elephantidae; Mammuthus,Słoniowate,2
+NC_005129.2,Elephas maximus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Afrotheria; Proboscidea; Elephantidae; Elephas,Słoniowate,2
+NC_000934.1,Loxodonta africana,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Afrotheria; Proboscidea; Elephantidae; Loxodonta,Słoniowate,2
+OL628830.1,Elephas maximus maximus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Afrotheria; Proboscidea; Elephantidae; Elephas,Słoniowate,2
+JN673263.1,Loxodonta cyclotis,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Afrotheria; Proboscidea; Elephantidae; Loxodonta,Słoniowate,2
+MK360903.1,Vombatus ursinus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Vombatidae; Vombatus,Torbacze,7
+NC_001794.1,Osphranter robustus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Macropodidae; Osphranter,Torbacze,7
+NC_061372.1,Phascolosorex doriae,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Dasyuromorphia; Dasyuridae; Phascolosorex,inne,8
+NC_069653.1,Trichosurus caninus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Phalangeridae; Trichosurus,Torbacze,7
+NC_057520.1,Lutreolina crassicaudata,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Didelphimorphia; Didelphidae; Lutreolina,inne,8
+NC_057519.1,Didelphis pernigra,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Didelphimorphia; Didelphidae; Didelphis,inne,8
+NC_008133.1,Phascolarctos cinereus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Phascolarctidae; Phascolarctos,Torbacze,7
+NC_018788.1,Sarcophilus harrisii,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Dasyuromorphia; Dasyuridae; Sarcophilus,inne,8
+NC_039717.1,Macropus fuliginosus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Macropodidae; Macropus,Torbacze,7
+NC_011944.1,Thylacinus cynocephalus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Dasyuromorphia; Thylacinidae; Thylacinus,inne,8
+NC_008447.1,Lagostrophus fasciatus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Macropodidae; Lagostrophus,Torbacze,7
+NC_008145.1,Distoechurus pennatus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Acrobatidae; Distoechurus,Torbacze,7
+NC_007631.1,Sminthopsis crassicaudata,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Dasyuromorphia; Dasyuridae; Sminthopsis,inne,8
+FJ515782.1,Myrmecobius fasciatus,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Dasyuromorphia; Myrmecobiidae; Myrmecobius,inne,8
+KY996500.1,Wallabia bicolor,Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Metatheria; Diprotodontia; Macropodidae; Wallabia,Torbacze,7
