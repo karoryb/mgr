@@ -26,14 +26,14 @@ def generuj_cgr(sekwencja):
     return punkty
 
 
-# === KONFIGURACJA ===
+
 folder_wejscie = r"C:\Users\Karola\OneDrive - MULTIKKA Sp. z o.o\Dokumenty\STUDIA\INS\magisterka\fasta"
 folder_wyjscie = r"C:\Users\Karola\OneDrive - MULTIKKA Sp. z o.o\Dokumenty\STUDIA\INS\magisterka\CGRpng"
 
-# Utwórz folder wyjściowy, jeśli nie istnieje
+# jak nie ma folderu 
 os.makedirs(folder_wyjscie, exist_ok=True)
 
-# === PRZETWARZANIE WSZYSTKICH FASTA ===
+# PRZETWARZANIE WSZYSTKICH FASTA
 for plik in os.listdir(folder_wejscie):
     if plik.lower().endswith(".fasta"):
         sciezka = os.path.join(folder_wejscie, plik)
@@ -52,5 +52,5 @@ for plik in os.listdir(folder_wejscie):
             plt.savefig(sciezka_png, dpi=300, bbox_inches='tight', pad_inches=0)
             plt.close()
 
-print("✅ Gotowe! Wszystkie obrazy CGR zapisano w folderze")
+print("Wszystkie obrazy CGR zapisano w folderze")
 print(folder_wyjscie)

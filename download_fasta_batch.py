@@ -3,17 +3,17 @@ import requests
 import time
 from tqdm import tqdm
 
-# === KONFIGURACJA ===
+
 EMAIL = "288847@student.pwr.edu.pl"
 API_KEY = None
 MAX_TRIES = 5
 WAIT_BETWEEN = 0.34
 INPUT_FILE = "accessions.txt"
-OUTPUT_MODE = "separate"  # "separate" lub "combined"
+OUTPUT_MODE = "separate" 
 COMBINED_FILE = "all_sequences.fasta"
-OUTPUT_DIR = "fasta"  # <-- folder, gdzie zapiszemy pliki
+OUTPUT_DIR = "fasta" 
 
-# Upewnij się, że folder istnieje
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -73,9 +73,9 @@ def main():
 
     if OUTPUT_MODE == "combined":
         combined.close()
-        print(f"\n✅ Wszystkie sekwencje zapisano do: {combined_path}")
+        print(f"\nWszystkie sekwencje zapisano do: {combined_path}")
     else:
-        print(f"\n✅ Sekwencje zapisano w folderze: {OUTPUT_DIR}")
+        print(f"\nSekwencje zapisano w folderze: {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":
