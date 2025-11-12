@@ -1,0 +1,20 @@
+Wprowadzenie i Cel Badawczy
+
+Analiza filogenetyczna, kluczowa dla określenia pozycji ewolucyjnej organizmów, tradycyjnie opiera się na porównywaniu sekwencji DNA, z czego mitochondrialne DNA (mtDNA) jest szczególnie przydatne ze względu na swoją konserwatywność i stosunkowo niewielką długość. Klasyczne metody często dostarczają jedynie probabilistycznych wyników klasyfikacji, pozostawiając brak wyjaśnienia przyczyn stojących za daną decyzją taksonomiczną.
+Celem niniejszego projektu jest zbudowanie interpretowalnego systemu klasyfikacji organizmów na podstawie sekwencji mtDNA, który nie tylko osiągnie wysoką dokładność klasyfikacyjną, ale również dostarczy biologicznie uzasadnionych wyjaśnień decyzji algorytmu. Stanowi to odpowiedź na rosnącą potrzebę zwiększenia zaufania do systemów uczenia maszynowego w bioinformatyce.
+
+Metodyka Realizacji i Dotychczasowy Postęp
+Dotychczasowa praca koncentrowała się na pozyskaniu i wstępnym przetworzeniu danych wejściowych, stanowiących fundament dla późniejszego modelowania za pomocą głębokich sieci neuronowych.
+
+1. Pozyskanie Danych i Etykietowanie
+Dane wejściowe stanowią pełne sekwencje mitochondrialnego DNA (mtDNA) pochodzące z bazy danych National Center for Biotechnology Information (NCBI). Sekwencje te zostały pobrane dla zdefiniowanego zestawu organizmów, reprezentujących kluczowe, ewolucyjnie odległe grupy taksonomiczne (Kotowate, Naczelne, Gryzonie, Walenie, Słoniowate, Psowate, Torbacze i Mroczkowate).
+Krytycznym elementem wstępnej fazy było dokładne etykietowanie każdej sekwencji. Etykietowanie to stanowi zmienną docelową (Y) dla modelu klasyfikacyjnego. Wykorzystano w tym celu usługi NCBI Entrez Utilities (Entrez efetch i elink), aby dla każdego numeru dostępu (Accession Number) uzyskać formalny Taxonomy ID. Następnie, na podstawie Tax ID, pobrano pełną ścieżkę taksonomiczną (Lineage) w celu pewnego mapowania każdej sekwencji do jednej z ośmiu predefiniowanych klas taksonomicznych. Proces ten zakończył się wygenerowaniem ujednoliconego pliku z numerycznymi identyfikatorami klas (Label_ID), co jest niezbędne do treningu modelu.
+
+2. Reprezentacja Sekwencji: Chaos Game Representation (CGR)
+Zgodnie z założeniami projektu, sekwencje DNA zostały przetworzone na dwuwymiarowe reprezentacje graficzne przy użyciu algorytmu Chaos Game Representation (CGR). Metoda ta, choć rzadko spotykana w tradycyjnej analizie filogenetycznej, efektywnie przekształca strukturę sekwencji nukleotydowej w obraz fraktalny. Obrazy CGR stanowią wejście (X) do modelu, pozwalając na wykorzystanie wysoce efektywnych architektur Konwolucyjnych Sieci Neuronowych (CNN) w celu identyfikacji wzorców filogenetycznych.
+
+3. Wstępna Analiza i Przygotowanie Danych
+Przed przejściem do modelowania wykonano analizę rozkładu klas w zbiorze danych w celu identyfikacji potencjalnych problemów z niezbalansowaniem. Następnie, przeprowadzono krytyczny podział danych na trzy zbiory: treningowy, walidacyjny i testowy. Aby zapewnić miarodajność oceny, zastosowano stratifikację, która gwarantuje, że proporcje klas taksonomicznych są zachowane w każdym z podzbiorów. Wstępne przetwarzanie obrazów CGR objęło:
+    Ujednolicenie rozmiaru (np. do 128×128 pikseli).
+    Normalizację wartości pikseli do zakresu [0,1].
+    Zmianę kształtu do formatu akceptowanego przez CNN ((wysokość, szerokość, 1)).
